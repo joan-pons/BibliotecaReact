@@ -1,25 +1,26 @@
-import logo from './logo.svg';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+import React, {useReducer} from 'react';
+import Llengues from './components/Llengues'
+import LlistaObres from './components/LlistaObres'
+import LlistaAutors from './components/LlistaAutors'
+import {Container, Stack} from "react-bootstrap";
+
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <Container>
+            <Stack>
+                <h1>Biblioteca per llengua</h1>
+                <Llengues/>
+                <p></p>
+                <LlistaObres/>
+                <p></p>
+                <LlistaAutors/>
+            </Stack>
+        </Container>
+    );
 }
 
 export default App;
