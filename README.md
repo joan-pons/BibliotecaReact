@@ -22,5 +22,8 @@ Els components utilitzen
 - _useSelector_ per accedir al valor de l'_store_.
 - _useEffect (()=>{...}, [ llengua ] )_ per actualitar les llistes quan canvia el valor de l'_store_.
 
+## React Bootstrap
+Per donar un mínim format a la pàgina s'ha utilitzat _React Bootstrap_.
+
 ## Desplegament
 El projecte està desplegat a un servidor Azure. És accesible a la url [http://52.178.39.51](http://52.178.39.51)
