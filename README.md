@@ -26,4 +26,4 @@ Els components utilitzen
 Per donar un mínim format a la pàgina s'ha utilitzat _React Bootstrap_.
 
 ## Desplegament
-El projecte està desplegat a un servidor Azure. És accesible a la url [http://52.178.39.51](http://52.178.39.51)
+El projecte està desplegat a un servidor Azure. És accesible a la url <a href="http://52.178.39.51" target="blank">http://52.178.39.51 </a>
